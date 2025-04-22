@@ -40,9 +40,9 @@ jobs:
     name: TruffleHog
     runs-on: ubuntu-latest
     # TODO 6: ajouter la tache de trufflehog
-    # https://github.com/trufflesecurity/trufflehog#octocat-trufflehog-github-action
-    # steps:
-    # - name: Checkout code
-    # - name: Secret Scanning
-    #   with:
-    #     head: ${{ github.ref_name }}
+    https://github.com/trufflesecurity/trufflehog#octocat-trufflehog-github-action
+    steps:
+    - name: Checkout code
+    - name: Secret Scanning
+      with:
+        head: ${{ github.ref_name }}
